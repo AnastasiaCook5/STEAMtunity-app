@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183783AB24BE718D009F855D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183783AA24BE718D009F855D /* AppDelegate.swift */; };
+		183783AD24BE718D009F855D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183783AC24BE718D009F855D /* SceneDelegate.swift */; };
+		183783AF24BE718D009F855D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183783AE24BE718D009F855D /* ViewController.swift */; };
+		183783B224BE718D009F855D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183783B024BE718D009F855D /* Main.storyboard */; };
+		183783B524BE718D009F855D /* STEAMtunity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 183783B324BE718D009F855D /* STEAMtunity.xcdatamodeld */; };
+		183783B724BE718E009F855D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183783B624BE718E009F855D /* Assets.xcassets */; };
+		183783BA24BE718E009F855D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183783B824BE718E009F855D /* LaunchScreen.storyboard */; };
+		183783C524BE718E009F855D /* STEAMtunityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183783C424BE718E009F855D /* STEAMtunityTests.swift */; };
+		183783D024BE718E009F855D /* STEAMtunityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183783CF24BE718E009F855D /* STEAMtunityUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		183783C124BE718E009F855D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1837839F24BE718D009F855D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183783A624BE718D009F855D;
+			remoteInfo = STEAMtunity;
+		};
+		183783CC24BE718E009F855D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1837839F24BE718D009F855D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183783A624BE718D009F855D;
+			remoteInfo = STEAMtunity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		183783A724BE718D009F855D /* STEAMtunity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STEAMtunity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		183783AA24BE718D009F855D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		183783AC24BE718D009F855D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		183783AE24BE718D009F855D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		183783B124BE718D009F855D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		183783B424BE718D009F855D /* STEAMtunity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = STEAMtunity.xcdatamodel; sourceTree = "<group>"; };
+		183783B624BE718E009F855D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		183783B924BE718E009F855D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		183783BB24BE718E009F855D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183783C024BE718E009F855D /* STEAMtunityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STEAMtunityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		183783C424BE718E009F855D /* STEAMtunityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEAMtunityTests.swift; sourceTree = "<group>"; };
+		183783C624BE718E009F855D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183783CB24BE718E009F855D /* STEAMtunityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STEAMtunityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		183783CF24BE718E009F855D /* STEAMtunityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEAMtunityUITests.swift; sourceTree = "<group>"; };
+		183783D124BE718E009F855D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183783A424BE718D009F855D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183783BD24BE718E009F855D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183783C824BE718E009F855D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1837839E24BE718D009F855D = {
+			isa = PBXGroup;
+			children = (
+				183783A924BE718D009F855D /* STEAMtunity */,
+				183783C324BE718E009F855D /* STEAMtunityTests */,
+				183783CE24BE718E009F855D /* STEAMtunityUITests */,
+				183783A824BE718D009F855D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		183783A824BE718D009F855D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				183783A724BE718D009F855D /* STEAMtunity.app */,
+				183783C024BE718E009F855D /* STEAMtunityTests.xctest */,
+				183783CB24BE718E009F855D /* STEAMtunityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		183783A924BE718D009F855D /* STEAMtunity */ = {
+			isa = PBXGroup;
+			children = (
+				183783AA24BE718D009F855D /* AppDelegate.swift */,
+				183783AC24BE718D009F855D /* SceneDelegate.swift */,
+				183783AE24BE718D009F855D /* ViewController.swift */,
+				183783B024BE718D009F855D /* Main.storyboard */,
+				183783B624BE718E009F855D /* Assets.xcassets */,
+				183783B824BE718E009F855D /* LaunchScreen.storyboard */,
+				183783BB24BE718E009F855D /* Info.plist */,
+				183783B324BE718D009F855D /* STEAMtunity.xcdatamodeld */,
+			);
+			path = STEAMtunity;
+			sourceTree = "<group>";
+		};
+		183783C324BE718E009F855D /* STEAMtunityTests */ = {
+			isa = PBXGroup;
+			children = (
+				183783C424BE718E009F855D /* STEAMtunityTests.swift */,
+				183783C624BE718E009F855D /* Info.plist */,
+			);
+			path = STEAMtunityTests;
+			sourceTree = "<group>";
+		};
+		183783CE24BE718E009F855D /* STEAMtunityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				183783CF24BE718E009F855D /* STEAMtunityUITests.swift */,
+				183783D124BE718E009F855D /* Info.plist */,
+			);
+			path = STEAMtunityUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183783A624BE718D009F855D /* STEAMtunity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183783D424BE718E009F855D /* Build configuration list for PBXNativeTarget "STEAMtunity" */;
+			buildPhases = (
+				183783A324BE718D009F855D /* Sources */,
+				183783A424BE718D009F855D /* Frameworks */,
+				183783A524BE718D009F855D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STEAMtunity;
+			productName = STEAMtunity;
+			productReference = 183783A724BE718D009F855D /* STEAMtunity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		183783BF24BE718E009F855D /* STEAMtunityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183783D724BE718E009F855D /* Build configuration list for PBXNativeTarget "STEAMtunityTests" */;
+			buildPhases = (
+				183783BC24BE718E009F855D /* Sources */,
+				183783BD24BE718E009F855D /* Frameworks */,
+				183783BE24BE718E009F855D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				183783C224BE718E009F855D /* PBXTargetDependency */,
+			);
+			name = STEAMtunityTests;
+			productName = STEAMtunityTests;
+			productReference = 183783C024BE718E009F855D /* STEAMtunityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		183783CA24BE718E009F855D /* STEAMtunityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183783DA24BE718E009F855D /* Build configuration list for PBXNativeTarget "STEAMtunityUITests" */;
+			buildPhases = (
+				183783C724BE718E009F855D /* Sources */,
+				183783C824BE718E009F855D /* Frameworks */,
+				183783C924BE718E009F855D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				183783CD24BE718E009F855D /* PBXTargetDependency */,
+			);
+			name = STEAMtunityUITests;
+			productName = STEAMtunityUITests;
+			productReference = 183783CB24BE718E009F855D /* STEAMtunityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1837839F24BE718D009F855D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					183783A624BE718D009F855D = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					183783BF24BE718E009F855D = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 183783A624BE718D009F855D;
+					};
+					183783CA24BE718E009F855D = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 183783A624BE718D009F855D;
+					};
+				};
+			};
+			buildConfigurationList = 183783A224BE718D009F855D /* Build configuration list for PBXProject "STEAMtunity" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1837839E24BE718D009F855D;
+			productRefGroup = 183783A824BE718D009F855D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183783A624BE718D009F855D /* STEAMtunity */,
+				183783BF24BE718E009F855D /* STEAMtunityTests */,
+				183783CA24BE718E009F855D /* STEAMtunityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		183783A524BE718D009F855D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183783BA24BE718E009F855D /* LaunchScreen.storyboard in Resources */,
+				183783B724BE718E009F855D /* Assets.xcassets in Resources */,
+				183783B224BE718D009F855D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183783BE24BE718E009F855D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183783C924BE718E009F855D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183783A324BE718D009F855D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183783AF24BE718D009F855D /* ViewController.swift in Sources */,
+				183783AB24BE718D009F855D /* AppDelegate.swift in Sources */,
+				183783AD24BE718D009F855D /* SceneDelegate.swift in Sources */,
+				183783B524BE718D009F855D /* STEAMtunity.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183783BC24BE718E009F855D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183783C524BE718E009F855D /* STEAMtunityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183783C724BE718E009F855D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183783D024BE718E009F855D /* STEAMtunityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		183783C224BE718E009F855D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 183783A624BE718D009F855D /* STEAMtunity */;
+			targetProxy = 183783C124BE718E009F855D /* PBXContainerItemProxy */;
+		};
+		183783CD24BE718E009F855D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 183783A624BE718D009F855D /* STEAMtunity */;
+			targetProxy = 183783CC24BE718E009F855D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		183783B024BE718D009F855D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183783B124BE718D009F855D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		183783B824BE718E009F855D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183783B924BE718E009F855D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		183783D224BE718E009F855D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		183783D324BE718E009F855D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		183783D524BE718E009F855D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7NS756B2X;
+				INFOPLIST_FILE = STEAMtunity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.STEAMtunity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		183783D624BE718E009F855D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7NS756B2X;
+				INFOPLIST_FILE = STEAMtunity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.STEAMtunity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		183783D824BE718E009F855D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7NS756B2X;
+				INFOPLIST_FILE = STEAMtunityTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.STEAMtunityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STEAMtunity.app/STEAMtunity";
+			};
+			name = Debug;
+		};
+		183783D924BE718E009F855D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7NS756B2X;
+				INFOPLIST_FILE = STEAMtunityTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.STEAMtunityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STEAMtunity.app/STEAMtunity";
+			};
+			name = Release;
+		};
+		183783DB24BE718E009F855D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7NS756B2X;
+				INFOPLIST_FILE = STEAMtunityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.STEAMtunityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = STEAMtunity;
+			};
+			name = Debug;
+		};
+		183783DC24BE718E009F855D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7NS756B2X;
+				INFOPLIST_FILE = STEAMtunityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.STEAMtunityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = STEAMtunity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183783A224BE718D009F855D /* Build configuration list for PBXProject "STEAMtunity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183783D224BE718E009F855D /* Debug */,
+				183783D324BE718E009F855D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183783D424BE718E009F855D /* Build configuration list for PBXNativeTarget "STEAMtunity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183783D524BE718E009F855D /* Debug */,
+				183783D624BE718E009F855D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183783D724BE718E009F855D /* Build configuration list for PBXNativeTarget "STEAMtunityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183783D824BE718E009F855D /* Debug */,
+				183783D924BE718E009F855D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183783DA24BE718E009F855D /* Build configuration list for PBXNativeTarget "STEAMtunityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183783DB24BE718E009F855D /* Debug */,
+				183783DC24BE718E009F855D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		183783B324BE718D009F855D /* STEAMtunity.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				183783B424BE718D009F855D /* STEAMtunity.xcdatamodel */,
+			);
+			currentVersion = 183783B424BE718D009F855D /* STEAMtunity.xcdatamodel */;
+			path = STEAMtunity.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1837839F24BE718D009F855D /* Project object */;
+}
