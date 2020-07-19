@@ -16,8 +16,9 @@
 		183783BA24BE718E009F855D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183783B824BE718E009F855D /* LaunchScreen.storyboard */; };
 		183783C524BE718E009F855D /* STEAMtunityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183783C424BE718E009F855D /* STEAMtunityTests.swift */; };
 		183783D024BE718E009F855D /* STEAMtunityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183783CF24BE718E009F855D /* STEAMtunityUITests.swift */; };
-		184E47EB24C10DF6009463D2 /* resourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E47EA24C10DF6009463D2 /* resourcesViewController.swift */; };
 		855AD2B724BFE738001282F8 /* GirlsOnlyIndividualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855AD2B624BFE738001282F8 /* GirlsOnlyIndividualViewController.swift */; };
+		858320C424C4BD2F00CD7914 /* ResourcesIndividualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858320C324C4BD2F00CD7914 /* ResourcesIndividualViewController.swift */; };
+		858320C824C4C42300CD7914 /* ResourcesPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858320C724C4C42300CD7914 /* ResourcesPageViewController.swift */; };
 		85E0BED524C3B8320003AB0A /* GirlsOnlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E0BED424C3B8320003AB0A /* GirlsOnlyViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,8 +55,9 @@
 		183783CB24BE718E009F855D /* STEAMtunityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STEAMtunityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		183783CF24BE718E009F855D /* STEAMtunityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEAMtunityUITests.swift; sourceTree = "<group>"; };
 		183783D124BE718E009F855D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		184E47EA24C10DF6009463D2 /* resourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resourcesViewController.swift; sourceTree = "<group>"; };
 		855AD2B624BFE738001282F8 /* GirlsOnlyIndividualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirlsOnlyIndividualViewController.swift; sourceTree = "<group>"; };
+		858320C324C4BD2F00CD7914 /* ResourcesIndividualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesIndividualViewController.swift; sourceTree = "<group>"; };
+		858320C724C4C42300CD7914 /* ResourcesPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesPageViewController.swift; sourceTree = "<group>"; };
 		85E0BED424C3B8320003AB0A /* GirlsOnlyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirlsOnlyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,7 +113,8 @@
 				183783AC24BE718D009F855D /* SceneDelegate.swift */,
 				183783AE24BE718D009F855D /* ViewController.swift */,
 				183783B024BE718D009F855D /* Main.storyboard */,
-				184E47EA24C10DF6009463D2 /* resourcesViewController.swift */,
+				858320C324C4BD2F00CD7914 /* ResourcesIndividualViewController.swift */,
+				858320C724C4C42300CD7914 /* ResourcesPageViewController.swift */,
 				855AD2B624BFE738001282F8 /* GirlsOnlyIndividualViewController.swift */,
 				85E0BED424C3B8320003AB0A /* GirlsOnlyViewController.swift */,
 				183783B624BE718E009F855D /* Assets.xcassets */,
@@ -272,10 +275,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				183783AF24BE718D009F855D /* ViewController.swift in Sources */,
+				858320C824C4C42300CD7914 /* ResourcesPageViewController.swift in Sources */,
 				183783AB24BE718D009F855D /* AppDelegate.swift in Sources */,
-				184E47EB24C10DF6009463D2 /* resourcesViewController.swift in Sources */,
 				183783AD24BE718D009F855D /* SceneDelegate.swift in Sources */,
 				183783B524BE718D009F855D /* STEAMtunity.xcdatamodeld in Sources */,
+				858320C424C4BD2F00CD7914 /* ResourcesIndividualViewController.swift in Sources */,
 				855AD2B724BFE738001282F8 /* GirlsOnlyIndividualViewController.swift in Sources */,
 				85E0BED524C3B8320003AB0A /* GirlsOnlyViewController.swift in Sources */,
 			);
