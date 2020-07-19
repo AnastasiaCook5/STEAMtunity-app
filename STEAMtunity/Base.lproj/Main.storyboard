@@ -46,6 +46,7 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="bWJ-O4-vu8"/>
@@ -426,7 +427,7 @@
             </objects>
             <point key="canvasLocation" x="2083" y="-2515"/>
         </scene>
-        <!--athena by WiSTEM-->
+        <!--title-->
         <scene sceneID="CkQ-8a-a24">
             <objects>
                 <viewController id="txY-KK-cpz" customClass="GirlsOnlyIndividualViewController" customModule="STEAMtunity" customModuleProvider="target" sceneMemberID="viewController">
@@ -446,56 +447,70 @@
                                 <color key="shadowColor" red="0.7560232522" green="0.92639712929999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <size key="shadowOffset" width="7" height="-1"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="an online community connecting minority females in STEM to professionals and mentors" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H6E-Y3-FGg">
-                                <rect key="frame" x="83" y="297" width="249" height="122"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="an online community connecting minority females in STEM to professionals and mentors" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H6E-Y3-FGg">
+                                <rect key="frame" x="83" y="297" width="260" height="122"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="7Sf-NR-hbT"/>
+                                    <constraint firstAttribute="height" constant="122" id="Eeb-2N-Luv"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WHO: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="joO-VA-u03">
-                                <rect key="frame" x="80" y="544" width="59" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHO: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="joO-VA-u03">
+                                <rect key="frame" x="80" y="509" width="59" height="25"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="59" id="Jc1-jE-UpJ"/>
+                                    <constraint firstAttribute="height" constant="25" id="VWY-HH-MXq"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" red="0.7902330756" green="0.92064231630000004" blue="0.99216169119999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <size key="shadowOffset" width="4" height="-1"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WHAT:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sde-T3-UIc">
-                                <rect key="frame" x="80" y="599" width="69" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHAT:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sde-T3-UIc">
+                                <rect key="frame" x="80" y="567" width="69" height="29"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="69" id="1Em-aE-xAa"/>
+                                    <constraint firstAttribute="height" constant="29" id="orM-Mn-dC5"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <color key="highlightedColor" red="0.7902330756" green="0.92064231630000004" blue="0.99216169119999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="shadowColor" red="0.7902330756" green="0.92064231630000004" blue="0.99216169119999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <size key="shadowOffset" width="4" height="-1"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WHERE:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lQW-pZ-vvu">
-                                <rect key="frame" x="80" y="646" width="82" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHERE:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lQW-pZ-vvu">
+                                <rect key="frame" x="80" y="631" width="82" height="30"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="82" id="PKT-sh-9vz"/>
+                                    <constraint firstAttribute="height" constant="30" id="fPb-DI-CyL"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" red="0.7902330756" green="0.92064231630000004" blue="0.99216169119999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <size key="shadowOffset" width="4" height="-1"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WHEN:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ug-gm-Sjk">
-                                <rect key="frame" x="80" y="698" width="71" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHEN:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ug-gm-Sjk">
+                                <rect key="frame" x="80" y="696" width="71" height="30"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="M9R-Eb-iae"/>
+                                    <constraint firstAttribute="width" constant="71" id="wVm-ev-mNE"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" red="0.7560232522" green="0.92639712929999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <size key="shadowOffset" width="4" height="-1"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="community" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pdI-Ss-4CU">
-                                <rect key="frame" x="174" y="603" width="107" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="community" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pdI-Ss-4CU">
+                                <rect key="frame" x="174" y="569" width="169" height="21"/>
                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -518,45 +533,75 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="online" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZUP-dJ-jFE">
-                                <rect key="frame" x="174" y="651" width="150" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="online" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZUP-dJ-jFE">
+                                <rect key="frame" x="174" y="634" width="149" height="21"/>
                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="U0X-NE-nB3">
-                                <rect key="frame" x="80" y="402" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="middle/high school" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWK-at-hXY">
+                                <rect key="frame" x="174" y="511" width="169" height="21"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="year round" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uiV-Hs-44v">
+                                <rect key="frame" x="174" y="700" width="169" height="21"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U0X-NE-nB3">
+                                <rect key="frame" x="80" y="416" width="178" height="34"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="k5M-Jr-IwQ"/>
+                                </constraints>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="middle/high school" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWK-at-hXY">
-                                <rect key="frame" x="174" y="546" width="169" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="year round" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uiV-Hs-44v">
-                                <rect key="frame" x="174" y="703" width="150" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="ZUP-dJ-jFE" firstAttribute="leading" secondItem="lQW-pZ-vvu" secondAttribute="trailing" constant="12" id="00e-su-HZD"/>
+                            <constraint firstItem="HT3-lG-DcL" firstAttribute="trailing" secondItem="uiV-Hs-44v" secondAttribute="trailing" constant="71" id="3Yn-EJ-k0m"/>
                             <constraint firstItem="HT3-lG-DcL" firstAttribute="trailing" secondItem="UaV-rV-Y6Q" secondAttribute="trailing" constant="50" id="5GN-j9-q0b"/>
+                            <constraint firstItem="9ug-gm-Sjk" firstAttribute="leading" secondItem="HT3-lG-DcL" secondAttribute="leading" constant="80" id="6Yb-72-wkE"/>
+                            <constraint firstItem="aWK-at-hXY" firstAttribute="leading" secondItem="joO-VA-u03" secondAttribute="trailing" constant="35" id="AFY-H6-8RY"/>
+                            <constraint firstItem="lQW-pZ-vvu" firstAttribute="leading" secondItem="HT3-lG-DcL" secondAttribute="leading" constant="80" id="AIK-Jx-lTD"/>
+                            <constraint firstItem="H6E-Y3-FGg" firstAttribute="leading" secondItem="HT3-lG-DcL" secondAttribute="leading" constant="83" id="B7y-0X-IUE"/>
+                            <constraint firstItem="H6E-Y3-FGg" firstAttribute="top" secondItem="UaV-rV-Y6Q" secondAttribute="bottom" constant="32" id="EQm-1d-u0N"/>
+                            <constraint firstItem="HT3-lG-DcL" firstAttribute="trailing" secondItem="ZUP-dJ-jFE" secondAttribute="trailing" constant="91" id="FkR-qh-Xh3"/>
+                            <constraint firstItem="uiV-Hs-44v" firstAttribute="top" secondItem="ZUP-dJ-jFE" secondAttribute="bottom" constant="45" id="Gsz-dm-YYd"/>
+                            <constraint firstItem="HT3-lG-DcL" firstAttribute="trailing" secondItem="aWK-at-hXY" secondAttribute="trailing" constant="71" id="LgT-9f-D6a"/>
+                            <constraint firstItem="pdI-Ss-4CU" firstAttribute="leading" secondItem="Sde-T3-UIc" secondAttribute="trailing" constant="25" id="ODs-ow-NQ5"/>
+                            <constraint firstItem="Sde-T3-UIc" firstAttribute="leading" secondItem="HT3-lG-DcL" secondAttribute="leading" constant="80" id="OsT-ea-FV1"/>
+                            <constraint firstItem="ZUP-dJ-jFE" firstAttribute="leading" secondItem="lQW-pZ-vvu" secondAttribute="trailing" constant="12" id="Roc-rb-5lg"/>
+                            <constraint firstItem="pdI-Ss-4CU" firstAttribute="top" secondItem="aWK-at-hXY" secondAttribute="bottom" constant="37" id="XPV-Fh-EKC"/>
+                            <constraint firstItem="ZUP-dJ-jFE" firstAttribute="top" secondItem="pdI-Ss-4CU" secondAttribute="bottom" constant="44" id="YgZ-99-FiH"/>
+                            <constraint firstItem="Sde-T3-UIc" firstAttribute="top" secondItem="joO-VA-u03" secondAttribute="bottom" constant="33" id="Zdq-d4-vOx"/>
+                            <constraint firstItem="aWK-at-hXY" firstAttribute="leading" secondItem="joO-VA-u03" secondAttribute="trailing" constant="35" id="aHQ-Ow-G8T"/>
+                            <constraint firstItem="HT3-lG-DcL" firstAttribute="trailing" secondItem="pdI-Ss-4CU" secondAttribute="trailing" constant="71" id="aUB-vZ-0iQ"/>
+                            <constraint firstItem="uiV-Hs-44v" firstAttribute="leading" secondItem="9ug-gm-Sjk" secondAttribute="trailing" constant="23" id="anh-Jb-3OZ"/>
+                            <constraint firstItem="pdI-Ss-4CU" firstAttribute="leading" secondItem="Sde-T3-UIc" secondAttribute="trailing" constant="25" id="apl-rb-DPN"/>
+                            <constraint firstItem="pdI-Ss-4CU" firstAttribute="top" secondItem="aWK-at-hXY" secondAttribute="bottom" constant="37" id="cgD-gL-CZ1"/>
+                            <constraint firstItem="U0X-NE-nB3" firstAttribute="top" secondItem="UaV-rV-Y6Q" secondAttribute="bottom" constant="151" id="dkb-pg-AgS"/>
+                            <constraint firstItem="aWK-at-hXY" firstAttribute="top" secondItem="U0X-NE-nB3" secondAttribute="bottom" constant="61" id="dnE-vk-9HX"/>
+                            <constraint firstItem="HT3-lG-DcL" firstAttribute="trailing" secondItem="U0X-NE-nB3" secondAttribute="trailing" constant="156" id="eSC-m9-J92"/>
+                            <constraint firstItem="joO-VA-u03" firstAttribute="top" secondItem="U0X-NE-nB3" secondAttribute="bottom" constant="59" id="fav-Zq-iEj"/>
+                            <constraint firstItem="uiV-Hs-44v" firstAttribute="leading" secondItem="9ug-gm-Sjk" secondAttribute="trailing" constant="23" id="jdV-D4-5JH"/>
+                            <constraint firstItem="lQW-pZ-vvu" firstAttribute="top" secondItem="Sde-T3-UIc" secondAttribute="bottom" constant="35" id="oFA-Ob-iIu"/>
+                            <constraint firstItem="9ug-gm-Sjk" firstAttribute="top" secondItem="lQW-pZ-vvu" secondAttribute="bottom" constant="35" id="qTt-WI-7U6"/>
                             <constraint firstItem="UaV-rV-Y6Q" firstAttribute="leading" secondItem="HT3-lG-DcL" secondAttribute="leading" constant="83" id="qcO-78-7la"/>
                             <constraint firstItem="UaV-rV-Y6Q" firstAttribute="top" secondItem="HT3-lG-DcL" secondAttribute="top" constant="91" id="rGn-WP-3xR"/>
+                            <constraint firstItem="U0X-NE-nB3" firstAttribute="leading" secondItem="HT3-lG-DcL" secondAttribute="leading" constant="80" id="sIx-MG-VZo"/>
+                            <constraint firstItem="HT3-lG-DcL" firstAttribute="trailing" secondItem="H6E-Y3-FGg" secondAttribute="trailing" constant="71" id="vfn-To-DFb"/>
+                            <constraint firstItem="joO-VA-u03" firstAttribute="leading" secondItem="HT3-lG-DcL" secondAttribute="leading" constant="80" id="vhD-hA-Thx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="HT3-lG-DcL"/>
                     </view>
-                    <navigationItem key="navigationItem" title="athena by WiSTEM" id="oOD-7B-wrA">
+                    <navigationItem key="navigationItem" title="title" id="oOD-7B-wrA">
                         <barButtonItem key="rightBarButtonItem" title="Save" id="t8I-IX-GbB">
                             <connections>
                                 <segue destination="VAC-gT-Zgt" kind="show" id="xWP-Si-B1n"/>

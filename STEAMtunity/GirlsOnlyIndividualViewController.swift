@@ -36,7 +36,9 @@ class GirlsOnlyIndividualViewController: UIViewController {
 
         let finalNavTitle = self.navigationItem.title = finalTitle
         
-        let attributedString = NSMutableAttributedString(string: "More Information")
+        let font = UIFont(name: "Verdana", size: 16)
+        let attributes = [NSAttributedString.Key.font: font]
+        let attributedString = NSMutableAttributedString(string: "More Information", attributes: attributes)
         let text = "More Information"
         let str = NSString(string: text)
         let theRange = str.range(of: "More Information")
