@@ -195,7 +195,7 @@
         <!--Girls-Only-->
         <scene sceneID="Ncs-hb-h95">
             <objects>
-                <viewController id="fnS-IT-NB6" sceneMemberID="viewController">
+                <viewController id="fnS-IT-NB6" customClass="GirlsOnlyViewController" customModule="STEAMtunity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WEY-ly-OxY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="3500"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -218,7 +218,9 @@
                                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="txY-KK-cpz" kind="show" id="4gx-B1-PiT"/>
+                                                    <action selector="aButton:" destination="afH-9g-u5H" eventType="touchUpInside" id="7sP-Le-aI9"/>
+                                                    <action selector="athenaButton:" destination="afH-9g-u5H" eventType="touchUpOutside" id="n8w-3J-ctN"/>
+                                                    <action selector="athenaButton:" destination="fnS-IT-NB6" eventType="touchUpInside" id="uaR-4x-MyQ"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m28-8N-NY7">
@@ -228,6 +230,9 @@
                                                     <constraint firstAttribute="height" constant="270" id="kYo-AJ-BWH"/>
                                                 </constraints>
                                                 <state key="normal" title="Button" image="builtbygirls"/>
+                                                <connections>
+                                                    <action selector="builtByGirlsButton:" destination="fnS-IT-NB6" eventType="touchUpInside" id="Txm-kE-gLx"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eiu-6a-IBU">
                                                 <rect key="frame" x="72" y="564" width="270" height="270"/>
@@ -236,6 +241,9 @@
                                                     <constraint firstAttribute="width" constant="270" id="dgo-jo-eyl"/>
                                                 </constraints>
                                                 <state key="normal" title="Button" image="builtbygirlswave"/>
+                                                <connections>
+                                                    <action selector="builtByGirlsWaveButton:" destination="fnS-IT-NB6" eventType="touchUpInside" id="m5G-bB-Q4n"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="muB-LZ-HT1">
                                                 <rect key="frame" x="72" y="842" width="270" height="270"/>
@@ -244,6 +252,9 @@
                                                     <constraint firstAttribute="width" constant="270" id="RCf-gP-plj"/>
                                                 </constraints>
                                                 <state key="normal" title="Button" image="engineergirl"/>
+                                                <connections>
+                                                    <action selector="engineerGirlButton:" destination="fnS-IT-NB6" eventType="touchUpInside" id="P7x-3y-Z8V"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7h-SW-K85">
                                                 <rect key="frame" x="72" y="1120" width="270" height="270"/>
@@ -252,6 +263,9 @@
                                                     <constraint firstAttribute="width" constant="270" id="zGB-e0-Dj3"/>
                                                 </constraints>
                                                 <state key="normal" title="Button" image="envision"/>
+                                                <connections>
+                                                    <action selector="envisionButton:" destination="fnS-IT-NB6" eventType="touchUpInside" id="QXy-TP-53C"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w0h-h4-v8k">
                                                 <rect key="frame" x="72" y="1398" width="270" height="270"/>
@@ -260,6 +274,9 @@
                                                     <constraint firstAttribute="height" constant="270" id="D5O-z6-lnw"/>
                                                 </constraints>
                                                 <state key="normal" title="Button" image="girlconchicago"/>
+                                                <connections>
+                                                    <action selector="girlConButton:" destination="fnS-IT-NB6" eventType="touchUpInside" id="OBJ-Yu-4gc"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dzt-DB-Ghg">
                                                 <rect key="frame" x="72" y="1676" width="270" height="270"/>
@@ -268,6 +285,9 @@
                                                     <constraint firstAttribute="height" constant="270" id="K4L-QY-lBY"/>
                                                 </constraints>
                                                 <state key="normal" title="Button" image="girlgenius"/>
+                                                <connections>
+                                                    <action selector="girlGeniusButton:" destination="fnS-IT-NB6" eventType="touchUpInside" id="uq8-qC-Y7J"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JHI-xp-MyF">
                                                 <rect key="frame" x="72" y="1954" width="270" height="270"/>
@@ -276,6 +296,9 @@
                                                     <constraint firstAttribute="height" constant="270" id="Va0-rY-4ac"/>
                                                 </constraints>
                                                 <state key="normal" title="Button" image="girlsinwhitecoats"/>
+                                                <connections>
+                                                    <action selector="girlsInWhiteCoatsButton:" destination="fnS-IT-NB6" eventType="touchUpInside" id="LWE-RP-do6"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3z3-Si-Sej">
                                                 <rect key="frame" x="72" y="2232" width="270" height="270"/>
@@ -284,6 +307,9 @@
                                                     <constraint firstAttribute="width" constant="270" id="e6H-tc-dKb"/>
                                                 </constraints>
                                                 <state key="normal" title="Button" image="girlswhocode"/>
+                                                <connections>
+                                                    <action selector="girlsWhoCodeButton:" destination="fnS-IT-NB6" eventType="touchUpInside" id="gha-4M-FZT"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="14u-iE-nKn">
                                                 <rect key="frame" x="72" y="2510" width="270" height="270"/>
@@ -292,6 +318,9 @@
                                                     <constraint firstAttribute="height" constant="270" id="2OP-aq-VuG"/>
                                                 </constraints>
                                                 <state key="normal" title="Button" image="hobbyhacks"/>
+                                                <connections>
+                                                    <action selector="hobbyHacksButton:" destination="fnS-IT-NB6" eventType="touchUpInside" id="pba-Jz-ucc"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rcd-IW-lFc">
                                                 <rect key="frame" x="72" y="2788" width="270" height="270"/>
@@ -300,6 +329,9 @@
                                                     <constraint firstAttribute="height" constant="270" id="HJJ-uj-ILc"/>
                                                 </constraints>
                                                 <state key="normal" title="Button" image="hopperhacks"/>
+                                                <connections>
+                                                    <action selector="hopperHacksButton:" destination="fnS-IT-NB6" eventType="touchUpInside" id="oEe-Sc-XUE"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LSb-hG-iAo">
                                                 <rect key="frame" x="72" y="3066" width="270" height="270"/>
@@ -308,6 +340,9 @@
                                                     <constraint firstAttribute="height" constant="270" id="fAD-Wr-Dhx"/>
                                                 </constraints>
                                                 <state key="normal" title="Button" image="kodewithklossy"/>
+                                                <connections>
+                                                    <action selector="kodeWithKlossyButton:" destination="fnS-IT-NB6" eventType="touchUpInside" id="by6-vK-xKM"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -382,8 +417,12 @@
                     </view>
                     <navigationItem key="navigationItem" title="Girls-Only" id="157-yZ-Ybm"/>
                     <size key="freeformSize" width="414" height="3500"/>
+                    <connections>
+                        <segue destination="txY-KK-cpz" kind="show" identifier="GirlsOnlyIndividual" id="YLZ-qG-qbA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sgo-Jc-ndG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="afH-9g-u5H" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2083" y="-2515"/>
         </scene>
@@ -395,9 +434,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="athena by WiSTEM" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UaV-rV-Y6Q">
-                                <rect key="frame" x="83" y="179" width="249" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title of opportunity" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UaV-rV-Y6Q">
+                                <rect key="frame" x="83" y="179" width="281" height="86"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="RYO-FC-g2j"/>
+                                    <constraint firstAttribute="width" constant="281" id="YRV-1r-TGR"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -507,6 +549,11 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="HT3-lG-DcL" firstAttribute="trailing" secondItem="UaV-rV-Y6Q" secondAttribute="trailing" constant="50" id="5GN-j9-q0b"/>
+                            <constraint firstItem="UaV-rV-Y6Q" firstAttribute="leading" secondItem="HT3-lG-DcL" secondAttribute="leading" constant="83" id="qcO-78-7la"/>
+                            <constraint firstItem="UaV-rV-Y6Q" firstAttribute="top" secondItem="HT3-lG-DcL" secondAttribute="top" constant="91" id="rGn-WP-3xR"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="HT3-lG-DcL"/>
                     </view>
                     <navigationItem key="navigationItem" title="athena by WiSTEM" id="oOD-7B-wrA">
@@ -517,7 +564,13 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="descriptionLabel" destination="H6E-Y3-FGg" id="iTF-sh-x3B"/>
                         <outlet property="link" destination="U0X-NE-nB3" id="fsP-dz-PiG"/>
+                        <outlet property="titleLabel" destination="UaV-rV-Y6Q" id="c26-Bd-YrI"/>
+                        <outlet property="whatLabel" destination="pdI-Ss-4CU" id="ltG-ht-LNI"/>
+                        <outlet property="whenLabel" destination="uiV-Hs-44v" id="aZs-d5-uLX"/>
+                        <outlet property="whereLabel" destination="ZUP-dJ-jFE" id="Zvr-7W-czH"/>
+                        <outlet property="whoLabel" destination="aWK-at-hXY" id="4hz-OO-yqz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vmz-lw-WGv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
