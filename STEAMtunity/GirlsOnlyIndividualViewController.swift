@@ -29,19 +29,19 @@ class GirlsOnlyIndividualViewController: UIViewController {
     var finalWhen: String?
     
     @IBOutlet weak var link: UITextView!
+    var finalLink: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         let finalNavTitle = self.navigationItem.title = finalTitle
         
-        let athena = "https://athenabywistem.wixsite.com/athena"
         let attributedString = NSMutableAttributedString(string: "More Information")
         let text = "More Information"
         let str = NSString(string: text)
         let theRange = str.range(of: "More Information")
         
-        attributedString.addAttribute(.link, value: athena, range: theRange)
+        attributedString.addAttribute(.link, value: finalLink, range: theRange)
         link.attributedText = attributedString
             
         titleLabel.text = finalTitle

@@ -15,6 +15,7 @@ class GirlsOnlyViewController: UIViewController {
     var myWhat = ""
     var myWhere = ""
     var myWhen = ""
+    var myLink = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +29,7 @@ class GirlsOnlyViewController: UIViewController {
         myWhat = "community"
         myWhere = "online"
         myWhen = "year-round"
+        myLink = "https://athenabywistem.wixsite.com/athena"
         self.performSegue(withIdentifier: "GirlsOnlyIndividual", sender: self)
     }
 
@@ -38,6 +40,7 @@ class GirlsOnlyViewController: UIViewController {
         myWhat = "community"
         myWhere = "online"
         myWhen = "year-round"
+        myLink = "https://www.builtbygirls.com/"
         self.performSegue(withIdentifier: "GirlsOnlyIndividual", sender: self)
     }
     
@@ -46,8 +49,9 @@ class GirlsOnlyViewController: UIViewController {
         myDescription = "mentorship program part of BUILT BY GIRLS connecting students to professionals"
         myWho = "high school/college"
         myWhat = "mentorship"
-        myWhere = "online"
+        myWhere = "in-person/online"
         myWhen = "year-round"
+        myLink = "https://www.builtbygirls.com/about-wave"
         self.performSegue(withIdentifier: "GirlsOnlyIndividual", sender: self)
     }
     
@@ -58,6 +62,7 @@ class GirlsOnlyViewController: UIViewController {
         myWhat = "resource"
         myWhere = "online"
         myWhen = "year-round"
+        myLink = "https://www.engineergirl.org/128602/Ambassadors"
         self.performSegue(withIdentifier: "GirlsOnlyIndividual", sender: self)
     }
     
@@ -68,6 +73,7 @@ class GirlsOnlyViewController: UIViewController {
         myWhat = "competition"
         myWhere = "online"
         myWhen = "each semester"
+        myLink = "https://www.envisionbywistem.com/"
         self.performSegue(withIdentifier: "GirlsOnlyIndividual", sender: self)
     }
     
@@ -78,6 +84,7 @@ class GirlsOnlyViewController: UIViewController {
         myWhat = "event"
         myWhere = "chicago"
         myWhen = "annually"
+        myLink = "https://girlconchicago.com/"
         self.performSegue(withIdentifier: "GirlsOnlyIndividual", sender: self)
     }
     
@@ -88,6 +95,7 @@ class GirlsOnlyViewController: UIViewController {
         myWhat = "community"
         myWhere = "online"
         myWhen = "year-round"
+        myLink = "http://girlgeniusmag.tech/"
         self.performSegue(withIdentifier: "GirlsOnlyIndividual", sender: self)
     }
     
@@ -98,6 +106,7 @@ class GirlsOnlyViewController: UIViewController {
         myWhat = "community"
         myWhere = "online"
         myWhen = "year-round"
+        myLink = "https://giwccentral.wixsite.com/girlsinwhitecoats"
         self.performSegue(withIdentifier: "GirlsOnlyIndividual", sender: self)
     }
     
@@ -108,6 +117,7 @@ class GirlsOnlyViewController: UIViewController {
         myWhat = "community"
         myWhere = "various locations"
         myWhen = "year-round"
+        myLink = "https://girlswhocode.com/"
         self.performSegue(withIdentifier: "GirlsOnlyIndividual", sender: self)
     }
     
@@ -118,6 +128,7 @@ class GirlsOnlyViewController: UIViewController {
         myWhat = "hackathon"
         myWhere = "online"
         myWhen = "annually"
+        myLink = "https://hobbyhacks.techtogether.io/"
         self.performSegue(withIdentifier: "GirlsOnlyIndividual", sender: self)
     }
     
@@ -128,6 +139,7 @@ class GirlsOnlyViewController: UIViewController {
         myWhat = "hackathon"
         myWhere = "online"
         myWhen = "annually"
+        myLink = "https://hopperhacks.com/"
         self.performSegue(withIdentifier: "GirlsOnlyIndividual", sender: self)
     }
     
@@ -138,6 +150,7 @@ class GirlsOnlyViewController: UIViewController {
         myWhat = "resource"
         myWhere = "various locations"
         myWhen = "annually"
+        myLink = "https://www.kodewithklossy.com/"
         self.performSegue(withIdentifier: "GirlsOnlyIndividual", sender: self)
     }
     
@@ -152,6 +165,7 @@ class GirlsOnlyViewController: UIViewController {
             destinationController.finalWhat = myWhat
             destinationController.finalWhere = myWhere
             destinationController.finalWhen = myWhen
+            destinationController.finalLink = myLink
         }
     }
 
