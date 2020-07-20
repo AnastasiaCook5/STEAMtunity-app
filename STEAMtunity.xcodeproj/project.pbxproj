@@ -17,8 +17,14 @@
 		183783C524BE718E009F855D /* STEAMtunityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183783C424BE718E009F855D /* STEAMtunityTests.swift */; };
 		183783D024BE718E009F855D /* STEAMtunityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183783CF24BE718E009F855D /* STEAMtunityUITests.swift */; };
 		855AD2B724BFE738001282F8 /* GirlsOnlyIndividualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855AD2B624BFE738001282F8 /* GirlsOnlyIndividualViewController.swift */; };
+		8564E75424C6203D0045C66A /* CommunitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8564E75324C6203D0045C66A /* CommunitiesViewController.swift */; };
+		8564E75624C624630045C66A /* CommunitiesIndividualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8564E75524C624630045C66A /* CommunitiesIndividualViewController.swift */; };
+		8564E75824C62BE60045C66A /* CompetitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8564E75724C62BE60045C66A /* CompetitionsViewController.swift */; };
+		8564E75C24C62CF10045C66A /* CompetitionsIndividualPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8564E75B24C62CF10045C66A /* CompetitionsIndividualPageViewController.swift */; };
 		858320C424C4BD2F00CD7914 /* ResourcesIndividualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858320C324C4BD2F00CD7914 /* ResourcesIndividualViewController.swift */; };
 		858320C824C4C42300CD7914 /* ResourcesPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858320C724C4C42300CD7914 /* ResourcesPageViewController.swift */; };
+		858320CA24C4DFE300CD7914 /* HackathonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858320C924C4DFE300CD7914 /* HackathonsViewController.swift */; };
+		858320CC24C4E4BF00CD7914 /* HackathonIndividualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858320CB24C4E4BF00CD7914 /* HackathonIndividualViewController.swift */; };
 		85E0BED524C3B8320003AB0A /* GirlsOnlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E0BED424C3B8320003AB0A /* GirlsOnlyViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,8 +62,14 @@
 		183783CF24BE718E009F855D /* STEAMtunityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEAMtunityUITests.swift; sourceTree = "<group>"; };
 		183783D124BE718E009F855D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		855AD2B624BFE738001282F8 /* GirlsOnlyIndividualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirlsOnlyIndividualViewController.swift; sourceTree = "<group>"; };
+		8564E75324C6203D0045C66A /* CommunitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunitiesViewController.swift; sourceTree = "<group>"; };
+		8564E75524C624630045C66A /* CommunitiesIndividualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunitiesIndividualViewController.swift; sourceTree = "<group>"; };
+		8564E75724C62BE60045C66A /* CompetitionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitionsViewController.swift; sourceTree = "<group>"; };
+		8564E75B24C62CF10045C66A /* CompetitionsIndividualPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitionsIndividualPageViewController.swift; sourceTree = "<group>"; };
 		858320C324C4BD2F00CD7914 /* ResourcesIndividualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesIndividualViewController.swift; sourceTree = "<group>"; };
 		858320C724C4C42300CD7914 /* ResourcesPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesPageViewController.swift; sourceTree = "<group>"; };
+		858320C924C4DFE300CD7914 /* HackathonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackathonsViewController.swift; sourceTree = "<group>"; };
+		858320CB24C4E4BF00CD7914 /* HackathonIndividualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackathonIndividualViewController.swift; sourceTree = "<group>"; };
 		85E0BED424C3B8320003AB0A /* GirlsOnlyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirlsOnlyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,10 +121,16 @@
 		183783A924BE718D009F855D /* STEAMtunity */ = {
 			isa = PBXGroup;
 			children = (
+				8564E75724C62BE60045C66A /* CompetitionsViewController.swift */,
+				8564E75B24C62CF10045C66A /* CompetitionsIndividualPageViewController.swift */,
+				858320C924C4DFE300CD7914 /* HackathonsViewController.swift */,
+				858320CB24C4E4BF00CD7914 /* HackathonIndividualViewController.swift */,
 				183783AA24BE718D009F855D /* AppDelegate.swift */,
 				183783AC24BE718D009F855D /* SceneDelegate.swift */,
 				183783AE24BE718D009F855D /* ViewController.swift */,
 				183783B024BE718D009F855D /* Main.storyboard */,
+				8564E75324C6203D0045C66A /* CommunitiesViewController.swift */,
+				8564E75524C624630045C66A /* CommunitiesIndividualViewController.swift */,
 				858320C324C4BD2F00CD7914 /* ResourcesIndividualViewController.swift */,
 				858320C724C4C42300CD7914 /* ResourcesPageViewController.swift */,
 				855AD2B624BFE738001282F8 /* GirlsOnlyIndividualViewController.swift */,
@@ -277,11 +295,17 @@
 				183783AF24BE718D009F855D /* ViewController.swift in Sources */,
 				858320C824C4C42300CD7914 /* ResourcesPageViewController.swift in Sources */,
 				183783AB24BE718D009F855D /* AppDelegate.swift in Sources */,
+				858320CA24C4DFE300CD7914 /* HackathonsViewController.swift in Sources */,
 				183783AD24BE718D009F855D /* SceneDelegate.swift in Sources */,
+				8564E75824C62BE60045C66A /* CompetitionsViewController.swift in Sources */,
+				8564E75C24C62CF10045C66A /* CompetitionsIndividualPageViewController.swift in Sources */,
+				8564E75624C624630045C66A /* CommunitiesIndividualViewController.swift in Sources */,
+				858320CC24C4E4BF00CD7914 /* HackathonIndividualViewController.swift in Sources */,
 				183783B524BE718D009F855D /* STEAMtunity.xcdatamodeld in Sources */,
 				858320C424C4BD2F00CD7914 /* ResourcesIndividualViewController.swift in Sources */,
 				855AD2B724BFE738001282F8 /* GirlsOnlyIndividualViewController.swift in Sources */,
 				85E0BED524C3B8320003AB0A /* GirlsOnlyViewController.swift in Sources */,
+				8564E75424C6203D0045C66A /* CommunitiesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
